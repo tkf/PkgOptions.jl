@@ -1,5 +1,6 @@
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 PkgOptions = "3f097ae0-1845-4608-b451-8f25fecb8ff6"
+PkgOptionsDemo = "bb3b8621-5970-400b-8acd-051caadabee1"
 PkgOptionsLoader = "a1f74f29-89a2-4b0d-830c-4d59713831bd"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"

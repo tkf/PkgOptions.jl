@@ -1,6 +1,7 @@
 using PkgOptions
+using PkgOptionsDemo
 using Test
 
 @testset "PkgOptions.jl" begin
-    # Write your own tests here.
+    @test PkgOptionsDemo.pkgoptions isa Dict
 end
