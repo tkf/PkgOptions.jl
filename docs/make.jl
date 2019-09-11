@@ -1,4 +1,4 @@
-using Documenter, PkgOptions
+using Documenter, PkgOptions, PkgOptionsLoader
 
 makedocs(;
     modules=[PkgOptions],
@@ -9,7 +9,6 @@ makedocs(;
     repo="https://github.com/tkf/PkgOptions.jl/blob/{commit}{path}#L{line}",
     sitename="PkgOptions.jl",
     authors="Takafumi Arakaki <aka.tkf@gmail.com>",
-    assets=String[],
 )
 
 deploydocs(;

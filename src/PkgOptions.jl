@@ -1,5 +1,8 @@
 module PkgOptions
 
+# Use README as the docstring of the module:
+@doc read(joinpath(dirname(@__DIR__), "README.md"), String) PkgOptions
+
 using Base: PkgId
 using Pkg: TOML
 using PkgOptionsLoader: optionspath

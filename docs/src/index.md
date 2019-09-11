@@ -4,5 +4,5 @@
 ```
 
 ```@autodocs
-Modules = [PkgOptions]
+Modules = [PkgOptions, PkgOptionsLoader]
 ```
